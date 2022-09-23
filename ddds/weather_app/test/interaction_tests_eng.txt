@@ -13,3 +13,8 @@ U> can you tell me about the temperature
 S> What city?
 U> Gothenburg Sweden
 S> The temperature is * degrees
+--asking the current weather (overanswering)
+U> can you tell me the current weather
+S> What city?
+U> Stockholm Sweden
+S> The current weather is * 

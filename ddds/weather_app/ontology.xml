@@ -6,6 +6,7 @@
     <predicate name="city_to_search" sort="city"/>
     <predicate name="country_to_search" sort="country"/>
     <predicate name="temperature" sort="string"/>
+    <predicate name="current_weather" sort="string"/>
     
     <individual name="london" sort="city"/>
     <individual name="uk" sort="country"/>

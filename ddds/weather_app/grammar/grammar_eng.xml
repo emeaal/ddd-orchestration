@@ -25,11 +25,21 @@
   </one-of>
 </question>
 
+<question speaker="user" predicate="current_weather" type="wh_question">
+  <one-of>
+    <item>current weather</item>
+  </one-of>
+</question>
+
   <question speaker="system" predicate="city_to_search">What city</question>
   <question speaker="system" predicate="country_to_search">What country</question>
 
 
   <answer speaker="system" predicate="temperature">The temperature is <slot predicate="temperature"/> degrees</answer>
+
+  <answer speaker="system" predicate="current_weather">The current weather is <slot predicate="current_weather"/> degrees</answer>
+
+
 
   <answer speaker="user">
     <slot sort="city"/> <slot sort="country"/>
