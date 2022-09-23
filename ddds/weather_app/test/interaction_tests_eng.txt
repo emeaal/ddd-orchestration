@@ -5,9 +5,19 @@ U> London
 S> What country?
 U> UK
 S> The temperature is * degrees
+--- asking the current weather (incremental)
+U> I want to know the current weather
+S> What city?
+U> London
+S> What country?
+U> UK
+S> The current weather is *
 --- asking the temperature (one-shot)
 U> What is the temperature in Gothenburg Sweden
 S> The temperature is * degrees
+--- asking the current weather (one-shot)
+U> What is the current weather in Gothenburg Sweden
+S> The current weather is *
 --- asking the temperature (overanswering)
 U> can you tell me about the temperature
 S> What city?
