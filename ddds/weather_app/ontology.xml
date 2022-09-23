@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ontology name="WeatherAppOntology">
+    <sort name="city" dynamic="true"/>
+    <sort name="country" dynamic="true"/>
+
+    <predicate name="city_to_search" sort="city"/>
+    <predicate name="country_to_search" sort="country"/>
+    <predicate name="temperature" sort="string"/>
+    
+    <individual name="london" sort="city"/>
+    <individual name="uk" sort="country"/>
+    <individual name="gothenburg" sort="city"/>
+    <individual name="stockholm" sort="city"/>
+    <individual name="sweden" sort="country"/>
+    <individual name="oslo" sort="city"/>
+    <individual name="norway" sort="country"/>
+
 </ontology>

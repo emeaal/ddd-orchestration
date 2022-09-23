@@ -6,10 +6,6 @@
       <item>main menu</item>
       <item>top</item>
       <item>beginning</item>
-      <item>cancel</item>
-      <item>forget it</item>
-      <item>never mind</item>
-      <item>abort</item>
     </one-of>
   </action>
 
@@ -20,5 +16,31 @@
       <item>go back</item>
     </one-of>
   </action>
+
+  <question speaker="user" predicate="temperature" type="wh_question">
+  <one-of>
+    <item>What is the temperature</item>
+    <item>tell me the temperature</item>
+    <item>I want to know the temperature</item>
+  </one-of>
+</question>
+
+  <question speaker="system" predicate="city_to_search">What city</question>
+  <question speaker="system" predicate="country_to_search">What country</question>
+
+
+  <answer speaker="system" predicate="temperature">The temperature is <slot predicate="temperature"/> degrees</answer>
+
+  <answer speaker="user">
+    <slot sort="city"/> <slot sort="country"/>
+  </answer>
+
+  <individual name="london">London</individual>
+  <individual name="uk">UK</individual>
+  <individual name="gothenburg">Gothenburg</individual>
+  <individual name="stockholm">Stockholm</individual>
+  <individual name="sweden">Sweden</individual>
+  <individual name="oslo">Oslo</individual>
+  <individual name="norway">Norway</individual>
 
 </grammar>

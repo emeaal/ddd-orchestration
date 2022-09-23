@@ -2,6 +2,8 @@
 
 import json
 
+import requests
+
 from flask import Flask, request
 from jinja2 import Environment
 
@@ -149,3 +151,20 @@ def action_success_response():
         mimetype='application/json'
     )
     return response
+
+  
+def get_current_data(city, country, unit="metric"):
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city},{country}&units={unit}&appid={API_KEY}"
+    response = requests.get(url)
+    data = response.json()
+    return data
+
+@app.route("/get_temperature", methods=['POST'])
+def get_temperature():
+    payload = request.get_json()
+    city = payload["context"]["facts"]["city_to_search"]["value"]
+    country = payload["context"]["facts"]["country_to_search"]["value"]
+    
+    api_response = get_current_data(city, country)
+    temperature = str(api_response['main']['temp'])
+    return query_response(value=temperature, grammar_entry=None)
