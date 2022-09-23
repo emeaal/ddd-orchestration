@@ -19,6 +19,7 @@
 
   <question speaker="user" predicate="temperature" type="wh_question">
   <one-of>
+    <item>temperature</item>
     <item>What is the temperature</item>
     <item>tell me the temperature</item>
     <item>I want to know the temperature</item>
@@ -28,6 +29,9 @@
 <question speaker="user" predicate="current_weather" type="wh_question">
   <one-of>
     <item>current weather</item>
+    <item>I want to know the current weather</item>
+    <item>Tell me the current weather</item>
+    <item>What is the current weather</item>
   </one-of>
 </question>
 

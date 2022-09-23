@@ -2,7 +2,8 @@
 <domain name="WeatherAppDomain" is_super_domain="true">
   <goal type="perform" action="top">
     <plan>
-     <findout type="alt_question">
+      <forget_all/>
+      <findout type="alt_question">
     <alt>
         <resolve type="wh_question" predicate="temperature"/>
     </alt>
@@ -10,7 +11,6 @@
         <resolve type="wh_question" predicate="current_weather"/>
     </alt>
 </findout>
-      <forget_all/>
     </plan>
   </goal>
 
@@ -21,6 +21,14 @@
       <findout type="wh_question" predicate="city_to_search"/>
       <findout type="wh_question" predicate="country_to_search"/>
       <invoke_service_query type="wh_question" predicate="temperature"/>
+    </plan>
+  </goal>
+
+  <goal type="resolve" question_type="wh_question" predicate="current_weather">
+    <plan>
+      <findout type="wh_question" predicate="city_to_search"/>
+      <findout type="wh_question" predicate="country_to_search"/>
+      <invoke_service_query type="wh_question" predicate="current_weather"/>
     </plan>
   </goal>
 </domain>
