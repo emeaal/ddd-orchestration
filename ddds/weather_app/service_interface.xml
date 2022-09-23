@@ -4,6 +4,7 @@
         <parameters>
             <parameter predicate="city_to_search" format="grammar_entry"/>
             <parameter predicate="country_to_search" format="grammar_entry"/>
+            <parameter predicate="unit" format="value" optional="true"/>
         </parameters>
         <target>
             <http endpoint="http://ddds-http-service/get_temperature"/>

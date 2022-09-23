@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar>
 
+<greeting>Welcome to the weather app!</greeting>
+
   <action name="top">
     <one-of>
       <item>main menu</item>
@@ -35,6 +37,7 @@
   </one-of>
 </question>
 
+  <question speaker="system" predicate="city_to_search">What city</question>
   <question speaker="system" predicate="city_to_search">What city</question>
   <question speaker="system" predicate="country_to_search">What country</question>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <domain name="WeatherAppDomain" is_super_domain="true">
-  <goal type="perform" action="top">
+ <goal type="perform" action="top">
     <plan>
       <forget_all/>
       <findout type="alt_question">
@@ -13,8 +13,6 @@
 </findout>
     </plan>
   </goal>
-
-
 
   <goal type="resolve" question_type="wh_question" predicate="temperature">
     <plan>
