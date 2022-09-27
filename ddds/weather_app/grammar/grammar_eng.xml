@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar>
 
-<greeting>Welcome to the weather app!</greeting>
+<greeting>What would you like to do?</greeting>
+
+<question speaker="system" predicate="temperature">temperature</question>
 
   <action name="top">
     <one-of>

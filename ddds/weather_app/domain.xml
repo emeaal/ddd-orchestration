@@ -18,7 +18,7 @@
     <plan>
       <findout type="wh_question" predicate="city_to_search"/>
       <findout type="wh_question" predicate="country_to_search"/>
-      <invoke_service_query type="wh_question" predicate="temperature"/>
+      <invoke_service_query predicate="temperature" type="wh_question"/>
     </plan>
   </goal>
 
@@ -26,7 +26,7 @@
     <plan>
       <findout type="wh_question" predicate="city_to_search"/>
       <findout type="wh_question" predicate="country_to_search"/>
-      <invoke_service_query type="wh_question" predicate="current_weather"/>
+      <invoke_service_query predicate="current_weather" type="wh_question"/>
     </plan>
   </goal>
 </domain>

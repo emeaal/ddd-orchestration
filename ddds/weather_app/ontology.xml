@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ontology name="WeatherAppOntology">
+    
+    <!---sort of individual-->
     <sort name="city" dynamic="true"/>
     <sort name="country" dynamic="true"/>
 
+    <!--predicate names-->
     <predicate name="city_to_search" sort="city"/>
     <predicate name="country_to_search" sort="country"/>
     <predicate name="temperature" sort="string"/>
     <predicate name="current_weather" sort="string"/>
     
+    <!--names of the individuals-->
     <individual name="london" sort="city"/>
     <individual name="uk" sort="country"/>
     <individual name="gothenburg" sort="city"/>
