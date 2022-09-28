@@ -178,7 +178,7 @@ def get_weather():
     country = payload["context"]["facts"]["country_to_search"]["grammar_entry"]
     
     api_response = get_current_data(city, country)
-    weather = str(api_response['main']['temp'])
+    weather = str(api_response['main']['description'])
     return query_response(value=weather, grammar_entry=None)
 
 
