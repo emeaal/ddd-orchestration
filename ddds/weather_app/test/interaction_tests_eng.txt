@@ -39,3 +39,12 @@ U> can you tell me the current weather
 S> What city?
 U> Stockholm Sweden
 S> The current weather is * 
+
+--asking the temperature in Fahrenhet
+S> Do you want to know about the temperature or the current weather?
+U> i want to know the temperature in Fahrenhet
+S> What city?
+U> Stockholm
+S> What country?
+U> Sweden
+S> The temperature in Fahrenhet is * degrees

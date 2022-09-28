@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar>
 
-<greeting>What would you like to do?</greeting>
-
-<question speaker="system" predicate="temperature">temperature</question>
-
   <action name="top">
     <one-of>
       <item>main menu</item>
@@ -21,12 +17,23 @@
     </one-of>
   </action>
 
+  <!--weather app-->
+
+  <question speaker="all" predicate="temperature">
+    the temperature
+  </question>
+
+  <question speaker="all" predicate="current_weather">
+    the current weather
+  </question>
+
   <question speaker="user" predicate="temperature" type="wh_question">
   <one-of>
     <item>temperature</item>
     <item>What is the temperature</item>
     <item>tell me the temperature</item>
     <item>I want to know the temperature</item>
+    <item>I want to know the temperature in <slot predicate="unit_type"/></item>
   </one-of>
 </question>
 
@@ -40,14 +47,12 @@
 </question>
 
   <question speaker="system" predicate="city_to_search">What city</question>
-  <question speaker="system" predicate="city_to_search">What city</question>
   <question speaker="system" predicate="country_to_search">What country</question>
 
 
   <answer speaker="system" predicate="temperature">The temperature is <slot predicate="temperature"/> degrees</answer>
 
   <answer speaker="system" predicate="current_weather">The current weather is <slot predicate="current_weather"/> degrees</answer>
-
 
 
   <answer speaker="user">
@@ -61,5 +66,9 @@
   <individual name="sweden">Sweden</individual>
   <individual name="oslo">Oslo</individual>
   <individual name="norway">Norway</individual>
+
+  <individual name="imperial">Fahrenheit</individual>
+  <individual name="metric">Celsius</individual>
+  <individual name="standard">Kelvin</individual>
 
 </grammar>
