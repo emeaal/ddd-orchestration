@@ -6,4 +6,19 @@
       <findout type="goal"/>
     </plan>
   </goal>
+
+
+  <goal type="perform" action="french_omelette">
+    <plan>
+    <get_done action="crack_eggs"/>
+    <get_done action="heat_butter"/>
+    <get_done action="add_eggs"/>
+    <get_done action="stir_eggs"/>
+    <get_done action="fold_omelette"/>
+    <get_done action="serve_omelette"/>
+    </plan>
+    </goal>
+  
+
+
 </domain>

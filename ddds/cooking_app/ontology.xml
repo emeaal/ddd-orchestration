@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ontology name="CookingAppOntology">
+
+<action name="french_omelette"/>
+
+<action name="crack_eggs"/>
+<action name="whisk_eggs"/>
+<action name="heat_butter"/>
+<action name="add_eggs"/>
+<action name="stir_eggs"/>
+<action name="fold_omelette"/>
+<action name="serve_omelette"/>
+
 </ontology>
