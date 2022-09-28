@@ -34,6 +34,7 @@
     <item>tell me the temperature</item>
     <item>I want to know the temperature</item>
     <item>I want to know the temperature in <slot predicate="unit_type"/></item>
+    <item>tell me the temperature in <slot predicate="unit_type"/></item>
   </one-of>
 </question>
 
