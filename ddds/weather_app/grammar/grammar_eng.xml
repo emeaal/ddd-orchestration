@@ -31,10 +31,18 @@
   <one-of>
     <item>temperature</item>
     <item>What is the temperature</item>
+    <item>What's the temperature like</item>
     <item>tell me the temperature</item>
     <item>I want to know the temperature</item>
+    <item>can you give me the temperature</item>
+    <item>what's the temperature outside</item>
+    <item>how many <slot predicate="unit_type"/> is it in <slot predicate="city_to_search"/></item>
     <item>I want to know the temperature in <slot predicate="unit_type"/></item>
+    <item>What is the temperature <slot predicate="unit_type"/></item>
+    <item>What is the temperature in <slot predicate="unit_type"/> in <slot predicate="city_to_search"/></item>
     <item>tell me the temperature in <slot predicate="unit_type"/></item>
+    <item>how many degrees is it in <slot predicate="city_to_search"/></item>
+    <item>what is the temperature in <slot predicate="city_to_search"/></item>
   </one-of>
 </question>
 
@@ -42,8 +50,20 @@
   <one-of>
     <item>current weather</item>
     <item>I want to know the current weather</item>
+    <item>i want to find out the current weather in <slot predicate="city_to_search"/></item>
+    <item>I want to find out the current weather</item>
     <item>Tell me the current weather</item>
     <item>What is the current weather</item>
+    <item>How's the weather</item>
+    <item>What is the current weather in <slot predicate="city_to_search"/></item>
+    <item>Can you tell me the current weather</item>
+    <item>Can you tell me the current weather in <slot predicate="city_to_search"/></item>
+    <item>Is it warm in <slot predicate="city_to_search"/></item>
+    <item>Is it warm in <slot predicate="city_to_search"/> today</item>
+    <item>Is it cold in <slot predicate="city_to_search"/></item>
+    <item>Is it cold in <slot predicate="city_to_search"/> today</item>
+    <item>Is it cloudy in <slot predicate="city_to_search"/> today</item>
+    <item>Is it cloudy in</item>
   </one-of>
 </question>
 
