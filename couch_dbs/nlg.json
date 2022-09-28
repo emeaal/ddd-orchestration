@@ -1,10 +1,28 @@
 [
     {
-        "match": "some(semantic_expression_of_a_move)",
-        "utterance": "some utterance"
+        "match": "request(crack_eggs)",
+        "utterance": "Crack three eggs on a bowl"
     },
     {
-        "match": "another(semantic_expression_of_a_move)",
-        "utterance": "another utterance"
+        "match": "request(whisk_eggs)",
+        "utterance": "Whisk eggs with a pinch of salt"
+    },
+    {
+        "match": "request(heat_butter)",
+        "utterance": "Heat butter or oil on a pan on high heat."
+    },
+    {
+        "match": "request(stir_eggs)",
+        "utterance": "Add the egg mixture to the pan and stir the eggs for about 30 seconds."
+    },
+    {
+        "match": "request(fold_omelette)",
+        "utterance": "When the eggs are set but look slightly wet, turn off the heat and fold the omelette."
+    },
+    {
+        "match": "request(serve_omelette)",
+        "utterance": "After a few seconds, transfer the omelette onto a plate."
     }
 ]
+
+

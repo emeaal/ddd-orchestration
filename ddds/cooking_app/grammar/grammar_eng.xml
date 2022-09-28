@@ -21,4 +21,16 @@
     </one-of>
   </action>
 
+  <!--recipe app-->
+
+   <action name="french_omelette">
+    <one-of>
+      <item>a French omelette</item>
+      <item>French omelette</item>
+      <item>how to do a french omelette</item>
+      <item>an omelette</item>
+      <item>I want to make an omelette</item>
+    </one-of>
+  </action>
+
 </grammar>

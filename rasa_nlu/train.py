@@ -71,7 +71,7 @@ def parse_args():
     )  # yapf: disable
     parser.add_argument("-u",
                         "--url",
-                        default="http://127.0.0.1:5010/model/train",
+                        default="http://127.0.0.1:5019/model/train",
                         help="URL to Rasa server")  # yapf: disable
     return parser.parse_args()
 
