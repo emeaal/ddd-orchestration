@@ -1,10 +1,10 @@
 [
     {
-        "match": "some(semantic_expression_of_a_move)",
-        "utterance": "some utterance"
+        "match": "answer(temperature(&individual))",
+        "utterance": "The temperature is &individual degrees"
     },
     {
-        "match": "another(semantic_expression_of_a_move)",
-        "utterance": "another utterance"
+        "match": "answer(current_weather(&individual))",
+        "utterance": "The current weather is &individual"
     }
 ]

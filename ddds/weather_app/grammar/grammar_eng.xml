@@ -20,7 +20,7 @@
   <!--weather app-->
 
   <question speaker="all" predicate="temperature">
-    the temperature
+    about the temperature
   </question>
 
   <question speaker="all" predicate="current_weather">

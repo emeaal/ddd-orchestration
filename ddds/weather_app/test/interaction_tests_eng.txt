@@ -1,5 +1,5 @@
 --- asking the temperature (incremental)
-S> Do you want to know about the temperature or the current weather?
+S> Do you want to know about the temperature or know the current weather?
 U> I want to know the temperature
 S> What city?
 U> London
@@ -8,7 +8,7 @@ U> UK
 S> The temperature is * degrees
 
 --- asking the current weather (incremental)
-S> Do you want to know about the temperature or the current weather?
+S> Do you want to know about the temperature or know the current weather?
 U> I want to know the current weather
 S> What city?
 U> London
@@ -17,31 +17,31 @@ U> UK
 S> The current weather is *
 
 --- asking the temperature (one-shot)
-S> Do you want to know about the temperature or the current weather?
+S> Do you want to know about the temperature or know the current weather?
 U> What is the temperature in Gothenburg Sweden
 S> The temperature is * degrees
 
 --- asking the current weather (one-shot)
-S> Do you want to know about the temperature or the current weather?
+S> Do you want to know about the temperature or know the current weather?
 U> What is the current weather in Gothenburg Sweden
 S> The current weather is *
 
 --- asking the temperature (overanswering)
-S> Do you want to know about the temperature or the current weather?
+S> Do you want to know about the temperature or know the current weather?
 U> can you tell me about the temperature
 S> What city?
 U> Gothenburg Sweden
 S> The temperature is * degrees
 
---asking the current weather (overanswering)
-S> Do you want to know about the temperature or the current weather?
+--- asking the current weather (overanswering)
+S> Do you want to know about the temperature or know the current weather?
 U> can you tell me the current weather
 S> What city?
 U> Stockholm Sweden
 S> The current weather is * 
 
---asking the temperature in Fahrenhet
-S> Do you want to know about the temperature or the current weather?
+--- asking the temperature in Fahrenhet
+S> Do you want to know about the temperature or know the current weather?
 U> i want to know the temperature in Fahrenhet
 S> What city?
 U> Stockholm
@@ -49,8 +49,8 @@ S> What country?
 U> Sweden
 S> The temperature in Fahrenhet is * degrees
 
---asking temperature nicely
-S> Do you want to know about the temperature or the current weather?
+--- asking temperature nicely
+S> Do you want to know about the temperature or know the current weather?
 U> Can you tell me the temperature please
 S> What city?
 U> Gothenburg
@@ -59,7 +59,7 @@ U> Sweden
 S> The temperature is * degrees
 
 
---misspelled temperature
-S> Do you want to know about the temperature or the current weather?
+--- misspelled temperature
+S> Do you want to know about the temperature or know the current weather?
 U> Can you tell me the tempartue in Gothenburg Sweden
 S> The temperature is * degrees
