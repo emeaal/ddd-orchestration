@@ -48,3 +48,18 @@ U> Stockholm
 S> What country?
 U> Sweden
 S> The temperature in Fahrenhet is * degrees
+
+--asking temperature nicely
+S> Do you want to know about the temperature or the current weather?
+U> Can you tell me the temperature please
+S> What city?
+U> Gothenburg
+S> What country?
+U> Sweden
+S> The temperature is * degrees
+
+
+--misspelled temperature
+S> Do you want to know about the temperature or the current weather?
+U> Can you tell me the tempartue in Gothenburg Sweden
+S> The temperature is * degrees
