@@ -1,5 +1,7 @@
+
+--- make french omelette
 S> What would you like to do?
-U> I want to prepare a French omelette
+U> I want to make a french omelette
 S> Crack three eggs on a bowl and whisk with a pinch of salt.
 U> done
 S> Heat butter or oil on a pan on high heat.
@@ -11,3 +13,22 @@ U> done
 S> After a few seconds, transfer the omelette onto a plate.
 U> done
 S> Amazing! You have finished preparing a French omelette. Bon appétit!.
+
+--- make mashed potatoes
+S> What would you like to do?
+U> I want to make mashed potatoes
+S> Cut your potatoes into evenly-sized chunks, about an inch or so thick.
+U> done
+S> Put cold water in the pan and turn on the high heat. Boil the potatoes for 10-12 minutes. Drain out all the water.
+U> done
+S> Heat your butter, milk and an additional 2 teaspoons of sea salt together either in a small saucepan.
+U> done
+S> Using your preferred kind of masher (see above), mash the potatoes to your desired consistency
+U> done
+S> Pour the melted butter mixture over the potatoes and stir everything together.
+U> done
+S> Add extra salt and black pepper.
+U> done
+S> Serve mashed potatoes warm, garnished with any extra toppings that you might like
+
+    

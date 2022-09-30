@@ -1,11 +1,7 @@
 [
     {
-        "match": "request(crack_eggs)",
-        "utterance": "Crack three eggs on a bowl"
-    },
-    {
         "match": "request(whisk_eggs)",
-        "utterance": "Whisk eggs with a pinch of salt"
+        "utterance": "Crack three eggs on a bowl and whisk with a pinch of salt."
     },
     {
         "match": "request(heat_butter)",
@@ -20,9 +16,38 @@
         "utterance": "When the eggs are set but look slightly wet, turn off the heat and fold the omelette."
     },
     {
-        "match": "request(serve_omelette)",
+        "match": "report(action_status(serve_omelette, done))",
         "utterance": "After a few seconds, transfer the omelette onto a plate."
+    },
+    {
+        "match": "request(cut_potatoes)",
+        "utterance": "Cut your potatoes into evenly-sized chunks, about an inch or so thick."
+    },
+    {
+        "match": "request(boil_potatoes)",
+        "utterance": "Put cold water in the pan and turn on the high heat. Boil the potatoes for 10-12 minutes. Drain out all the water."
+    },
+    {
+        "match": "request(prepare_melted_butter)",
+        "utterance": "Heat your butter, milk and an additional 2 teaspoons of sea salt together either in a small saucepan."
+    },
+    {
+        "match": "request(mash_potatoes)",
+        "utterance": "Using your preferred kind of masher, mash the potatoes to your desired consistency"
+    },
+    {
+        "match": "request(stir_potato_and_butter)",
+        "utterance": "Pour the melted butter mixture over the potatoes and stir everything together."
+    },
+    {
+        "match": "request(season_mashed_potatoes)",
+        "utterance": "Add extra salt and black pepper."
+    },
+    {
+        "match": "report(action_status(serve_mashed_potatoes, done))",
+        "utterance": "Serve mashed potatoes warm, garnished with any extra toppings that you might like"
     }
+
 ]
 
 

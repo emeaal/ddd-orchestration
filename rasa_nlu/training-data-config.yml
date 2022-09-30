@@ -23,6 +23,21 @@ pipeline:
 version: "2.0"
 
 nlu:
+- intent: action::french_omelette
+  examples: |
+    - a French omelette
+    - French omelette
+    - how to do a french omelette
+    - an omelette
+    - I want to make an omelette
+
+- intent: action::mashed_potatoes
+  examples: |
+    - mashed potatoes
+    - how to do mashed potatoes
+    - i want to make mashed potatoes
+    - how do i make mashed potatoes
+
 - intent: NEGATIVE
   examples: |
     - aboard

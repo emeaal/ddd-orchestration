@@ -29,7 +29,16 @@
       <item>French omelette</item>
       <item>how to do a french omelette</item>
       <item>an omelette</item>
-      <item>I want to make an omelette</item>
+      <item>I want to make a french omelette</item>
+    </one-of>
+  </action>
+
+  <action name="mashed_potatoes">
+    <one-of>
+    <item>mashed potatoes</item>
+    <item>how to do mashed potatoes</item>
+    <item>I want to make mashed potatoes</item>
+    <item>how do i make mashed potatoes</item>
     </one-of>
   </action>
 

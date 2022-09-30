@@ -2,12 +2,21 @@
 <ontology name="CookingAppOntology">
 
 <action name="french_omelette"/>
+<action name="mashed_potatoes"/>
 
-<action name="crack_eggs"/>
 <action name="whisk_eggs"/>
 <action name="heat_butter"/>
 <action name="stir_eggs"/>
 <action name="fold_omelette"/>
 <action name="serve_omelette"/>
+
+<action name="cut_potatoes"/>
+<action name="boil_potatoes"/>
+<action name="prepare_melted_butter"/>
+<action name="mash_potatoes"/>
+<action name="stir_potato_and_butter"/>
+<action name="season_mashed_potatoes"/>
+<action name="serve_mashed_potatoes"/>
+
 
 </ontology>

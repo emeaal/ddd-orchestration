@@ -10,7 +10,7 @@
 
   <goal type="perform" action="french_omelette">
     <plan>
-    <get_done action="crack_eggs"/>
+    <get_done action="whisk_eggs"/>
     <get_done action="heat_butter"/>
     <get_done action="stir_eggs"/>
     <get_done action="fold_omelette"/>
@@ -18,5 +18,18 @@
     <signal_action_completion/>
     </plan>
     </goal>
+
+  <goal type="perform" action="mashed_potatoes">
+  <plan>
+  <get_done action="cut_potatoes"/>
+  <get_done action="boil_potatoes"/>
+  <get_done action="prepare_melted_butter"/>
+  <get_done action="mash_potatoes"/>
+  <get_done action="stir_potato_and_butter"/>
+  <get_done action="season_mashed_potatoes"/>
+  <get_done action="serve_mashed_potatoes"/>
+  <signal_action_completion/>
+  </plan>
+  </goal>
   
 </domain>
