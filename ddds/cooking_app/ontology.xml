@@ -19,4 +19,28 @@
 <action name="serve_mashed_potatoes"/>
 
 
+<sort name="recipe" dynamic="false"/>
+<sort name="amount" dynamic="false"/>
+<sort name="serving" dynamic="false"/>
+
+
+<predicate name="current_recipe" sort="recipe"/>
+<predicate name="butter_amount" sort="amount"/>
+<predicate name="serve" sort="serving"/>
+
+<individual name="serve_the_omelette" sort="serving"/>
+
+
+<individual name="potato_recipe" sort="recipe"/>
+<individual name="omelette_recipe" sort="recipe"/>
+
+<individual name="tablespoon" sort="amount"/>
+<individual name="cup" sort="amount"/>
+
+<!-- <sort name="butter"/> -->
+
+
+
+
+
 </ontology>

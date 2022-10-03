@@ -1,26 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <domain name="CookingAppDomain" is_super_domain="true">
-  <goal type="perform" action="top">
+ <goal type="perform" action="top">
     <plan>
       <forget_all/>
-      <findout type="goal"/>
+      <findout type="alt_question">
+        <alt>
+          <perform action="french_omelette"/>
+        </alt>
+        <alt>
+          <perform action="mashed_potatoes"/>
+        </alt>
+      </findout>
     </plan>
   </goal>
 
 
   <goal type="perform" action="french_omelette">
     <plan>
+    <assume_shared>
+  <proposition predicate="current_recipe" value="omelette_recipe"/>
+</assume_shared>
     <get_done action="whisk_eggs"/>
     <get_done action="heat_butter"/>
     <get_done action="stir_eggs"/>
     <get_done action="fold_omelette"/>
     <get_done action="serve_omelette"/>
+    <inform>
+        <proposition predicate="serve" value="serve_the_omelette"/>
+      </inform>
     <signal_action_completion/>
     </plan>
     </goal>
 
   <goal type="perform" action="mashed_potatoes">
   <plan>
+  <assume_shared>
+  <proposition predicate="current_recipe" value="potato_recipe"/>
+</assume_shared>
   <get_done action="cut_potatoes"/>
   <get_done action="boil_potatoes"/>
   <get_done action="prepare_melted_butter"/>
@@ -30,6 +46,26 @@
   <get_done action="serve_mashed_potatoes"/>
   <signal_action_completion/>
   </plan>
+  </goal>
+
+
+   <goal type="resolve" question_type="wh_question" predicate="butter_amount">
+    <plan>
+      <findout type="wh_question" predicate="current_recipe"/>
+      <if>
+        <is_private_belief_or_shared_commitment predicate="current_recipe" value="omelette_recipe"/>
+        <then>
+          <inform>
+            <proposition predicate="butter_amount" value="tablespoon"/>
+          </inform>
+        </then>
+        <else>
+          <inform>
+            <proposition predicate="butter_amount" value="cup"/>
+          </inform>
+        </else>
+      </if>
+    </plan>
   </goal>
   
 </domain>

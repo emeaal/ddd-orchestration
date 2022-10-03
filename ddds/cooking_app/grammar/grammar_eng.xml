@@ -8,8 +8,6 @@
       <item>beginning</item>
       <item>cancel</item>
       <item>forget it</item>
-      <item>never mind</item>
-      <item>abort</item>
     </one-of>
   </action>
 
@@ -33,6 +31,7 @@
     </one-of>
   </action>
 
+
   <action name="mashed_potatoes">
     <one-of>
     <item>mashed potatoes</item>
@@ -41,5 +40,47 @@
     <item>how do i make mashed potatoes</item>
     </one-of>
   </action>
+
+   <question speaker="user" predicate="butter_amount" type="wh_question">
+    <one-of>
+      <item>how much butter</item>
+      <item>butter amount</item>
+      <item>amount of butter</item>
+    </one-of>
+  </question>
+
+  <individual name="tablespoon">
+    <one-of>
+      <item>tablespoon</item>
+      <item>a tablespoon</item>
+    </one-of>
+  </individual>
+
+  <individual name="cup">
+    <one-of>
+      <item>one cup</item>
+      <item>a cup</item>
+    </one-of>
+  </individual>
+
+    <individual name="potato_recipe">
+    <one-of>
+      <item>the potato recipe</item>
+    </one-of>
+  </individual>
+
+  <individual name="omelette_recipe">
+    <one-of>
+      <item>the omelette recipe</item>
+    </one-of>
+  </individual>
+
+  <individual name="serve_the_omelette">
+    <one-of>
+      <item>Enjoy your French omelette!</item>
+    </one-of>
+  </individual>
+
+
 
 </grammar>
