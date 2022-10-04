@@ -51,6 +51,20 @@
   </plan>
   </goal>
 
+  <goal type="perform" action="stir_eggs">
+  <plan>
+  <get_done action="stir_the_eggs"/>
+  <signal_action_completion/>
+  </plan>
+  </goal>
+
+  <goal type="perform" action="stir_potato_and_butter">
+  <plan>
+  <get_done action="stir_everything_potato"/>
+  <signal_action_completion/>
+  </plan>
+  </goal>
+
 
    <goal type="resolve" question_type="wh_question" predicate="butter_amount">
     <plan>
@@ -90,7 +104,4 @@
     </plan>
   </goal>
 
-
-
-  
 </domain>

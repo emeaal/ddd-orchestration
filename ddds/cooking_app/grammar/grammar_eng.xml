@@ -41,6 +41,12 @@
     </one-of>
   </action>
 
+  <action name="how">
+  <one-of>
+  <item>how do i do that</item>
+  </one-of>
+  </action>
+
   <action name="boil_potatoes">
     <one-of>
     <item>boil potatoes</item>
@@ -195,13 +201,9 @@
 
   <individual name="serve_the_mashed_potatoes">
     <one-of>
-      <item>Amazing! You have finished preparing mashed potatoes. Enjou your meal.</item>
+      <item>Amazing! You have finished preparing mashed potatoes. Enjou your meal</item>
     </one-of>
   </individual>
-
-
-
-
 
 
 

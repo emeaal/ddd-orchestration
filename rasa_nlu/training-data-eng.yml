@@ -104,11 +104,11 @@ nlu:
     - [the potato recipe]{"entity": "sort.recipe", "value": "individual.potato_recipe"}
     - [the omelette recipe]{"entity": "sort.recipe", "value": "individual.omelette_recipe"}
     - [Amazing! You have finished preparing a French omelette. Bon appétit!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
-    - [Amazing! You have finished preparing mashed potatoes. Enjou your meal.]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
+    - [Amazing! You have finished preparing mashed potatoes. Enjou your meal]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
     - yes [one tablespoon is fine]{"entity": "sort.amount", "value": "individual.tablespoon"}
     - yes [Amazing! You have finished preparing a French omelette. Bon appétit!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
     - no [one tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
-    - no [Amazing! You have finished preparing mashed potatoes. Enjou your meal.]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
+    - no [Amazing! You have finished preparing mashed potatoes. Enjou your meal]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
 
 - intent: answer_negation
   examples: |
@@ -123,7 +123,7 @@ nlu:
     - not [the potato recipe]{"entity": "sort.recipe", "value": "individual.potato_recipe"}
     - not [the omelette recipe]{"entity": "sort.recipe", "value": "individual.omelette_recipe"}
     - not [Amazing! You have finished preparing a French omelette. Bon appétit!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
-    - not [Amazing! You have finished preparing mashed potatoes. Enjou your meal.]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
+    - not [Amazing! You have finished preparing mashed potatoes. Enjou your meal]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
 
 - intent: NEGATIVE
   examples: |

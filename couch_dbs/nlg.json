@@ -44,14 +44,25 @@
         "utterance": "Pour the melted butter mixture over the potatoes and stir everything together."
     },
     {
+        "match": "request(stir_everything_potato, done))",
+        "utterance": "Pour half of the melted butter mixture over the potatoes, and fold it in with a wooden spoon or spatula until potatoes have soaked up the liquid"
+    },
+    {
+        "match": "report(action_status(stir_everything_potato, done))",
+        "utterance": "Repeat with the remaining butter. And then again with the cream cheese."
+    },
+    {
         "match": "request(season_mashed_potatoes)",
         "utterance": "Add extra salt and black pepper."
     },
     {
-        "match": "request(serve_mashed_potatoes)",
-        "utterance": "Serve mashed potatoes warm, garnished with any extra toppings that you might like"
+        "match": "request(stir_the_eggs)",
+        "utterance": "Hold a fork flat on the pan and stir the eggs thoroughly with one hand while shaking the pan back and forth with the other."
+    },
+    {
+        "match": "report(action_status(stir_eggs, done))",
+        "utterance": "Keep incorporating the set edges into the runny center. This takes just 25 to 30 seconds."
     }
-
 ]
 
 
