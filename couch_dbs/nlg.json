@@ -48,7 +48,7 @@
         "utterance": "Add extra salt and black pepper."
     },
     {
-        "match": "report(action_status(serve_mashed_potatoes, done))",
+        "match": "request(serve_mashed_potatoes)",
         "utterance": "Serve mashed potatoes warm, garnished with any extra toppings that you might like"
     }
 

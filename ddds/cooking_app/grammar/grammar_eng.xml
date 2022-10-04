@@ -168,7 +168,7 @@
 
   <individual name="cup">
     <one-of>
-      <item>6 tablespoons of butter</item>
+      <item>around 6 tablespoons of butter is fine</item>
       <item>around 6 tablespoons</item>
     </one-of>
   </individual>
@@ -187,13 +187,13 @@
 
   <individual name="serve_the_omelette">
     <one-of>
-      <item>Enjoy your French omelette</item>
+      <item>Amazing! You have finished preparing a French omelette. Bon appétit!</item>
     </one-of>
   </individual>
 
   <individual name="serve_the_mashed_potatoes">
     <one-of>
-      <item>Enjoy your mashed potatoes</item>
+      <item>Amazing! You have finished preparing mashed potatoes. Enjoy your meal!</item>
     </one-of>
   </individual>
 
