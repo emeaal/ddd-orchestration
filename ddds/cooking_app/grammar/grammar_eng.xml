@@ -41,18 +41,105 @@
     </one-of>
   </action>
 
-   <question speaker="user" predicate="butter_amount" type="wh_question">
+  <action name="boil_potatoes">
     <one-of>
-      <item>how much butter</item>
+    <item>boil potatoes</item>
+    <item>boil the potatoes</item>
+    </one-of>
+  </action>
+
+<action name="cut_potatoes">
+    <one-of>
+    <item>cut potatoes</item>
+    <item>cut the potatoes</item>
+    </one-of>
+  </action>
+
+  <action name="fold_omelette">
+    <one-of>
+    <item>fold omelette</item>
+    <item>fold the omelette</item>
+    </one-of>
+  </action>
+
+  <action name="heat_butter">
+    <one-of>
+    <item>heat butter</item>
+    <item>heat the butter</item>
+    </one-of>
+  </action>
+  
+  <action name="mash_potatoes">
+    <one-of>
+    <item>mash potatoes</item>
+    <item>mash the potatoes</item>
+    </one-of>
+  </action>
+
+  <action name="prepare_melted_butter">
+    <one-of>
+    <item>prepare melted butter</item>
+    <item>prepare the melted butter</item>
+    </one-of>
+  </action>
+
+  <action name="season_mashed_potatoes">
+    <one-of>
+    <item>season mashed potatoes</item>
+    <item>season the now mashed potatoes</item>
+    </one-of>
+  </action>
+
+  <action name="serve_mashed_potatoes">
+    <one-of>
+    <item>serve mashed potatoes</item>
+    <item>serve the mashed potatoes</item>
+    </one-of>
+  </action>
+
+  <action name="serve_omelette">
+    <one-of>
+    <item>serve omelette</item>
+    <item>serve the omelette</item>
+    </one-of>
+  </action>
+
+  <action name="stir_eggs">
+    <one-of>
+    <item>stir eggs</item>
+    <item>stir the eggs</item>
+    </one-of>
+  </action>
+
+  <action name="stir_potato_and_butter">
+    <one-of>
+    <item>stir potato butter</item>
+    <item>stir potato and butter</item>
+    <item>stir mashed potatoes and butter</item>
+    </one-of>
+  </action>
+
+  <action name="whisk_eggs">
+    <one-of>
+    <item>whisk eggs</item>
+    <item>whisk the eggs</item>
+    </one-of>
+  </action>
+
+
+  <question type="wh_question" speaker="user" predicate="butter_amount">
+    <one-of>
       <item>butter amount</item>
-      <item>amount of butter</item>
+      <item>how much butter should i take</item>
+      <item>what amount of butter</item>
+      <item>how much butter</item>
     </one-of>
   </question>
 
   <individual name="tablespoon">
     <one-of>
-      <item>tablespoon</item>
-      <item>a tablespoon</item>
+      <item>one tablespoon is fine</item>
+      <item>one tablespoon</item>
     </one-of>
   </individual>
 
@@ -77,7 +164,7 @@
 
   <individual name="serve_the_omelette">
     <one-of>
-      <item>Enjoy your French omelette!</item>
+      <item>Enjoy your French omelette</item>
     </one-of>
   </individual>
 

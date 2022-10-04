@@ -1,20 +1,108 @@
 version: "2.0"
 
 nlu:
+- intent: action::boil_potatoes
+  examples: |
+    - boil potatoes
+    - boil the potatoes
+
+- intent: action::cut_potatoes
+  examples: |
+    - cut potatoes
+    - cut the potatoes
+
+- intent: action::fold_omelette
+  examples: |
+    - fold omelette
+    - fold the omelette
+
 - intent: action::french_omelette
   examples: |
     - a French omelette
     - French omelette
     - how to do a french omelette
     - an omelette
-    - I want to make an omelette
+    - I want to make a french omelette
+
+- intent: action::heat_butter
+  examples: |
+    - heat butter
+    - heat the butter
+
+- intent: action::mash_potatoes
+  examples: |
+    - mash potatoes
+    - mash the potatoes
 
 - intent: action::mashed_potatoes
   examples: |
     - mashed potatoes
     - how to do mashed potatoes
-    - i want to make mashed potatoes
+    - I want to make mashed potatoes
     - how do i make mashed potatoes
+
+- intent: action::prepare_melted_butter
+  examples: |
+    - prepare melted butter
+    - prepare the melted butter
+
+- intent: action::season_mashed_potatoes
+  examples: |
+    - season mashed potatoes
+    - season the now mashed potatoes
+
+- intent: action::serve_mashed_potatoes
+  examples: |
+    - serve mashed potatoes
+    - serve the mashed potatoes
+
+- intent: action::serve_omelette
+  examples: |
+    - serve omelette
+    - serve the omelette
+
+- intent: action::stir_eggs
+  examples: |
+    - stir eggs
+    - stir the eggs
+
+- intent: action::stir_potato_and_butter
+  examples: |
+    - stir potato butter
+    - stir potato and butter
+    - stir mashed potatoes and butter
+
+- intent: action::whisk_eggs
+  examples: |
+    - whisk eggs
+    - whisk the eggs
+
+- intent: question::butter_amount
+  examples: |
+    - butter amount
+    - how much butter
+
+- intent: answer
+  examples: |
+    - [tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - [a tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - [one cup]{"entity": "sort.amount", "value": "individual.cup"}
+    - [a cup]{"entity": "sort.amount", "value": "individual.cup"}
+    - [the potato recipe]{"entity": "sort.recipe", "value": "individual.potato_recipe"}
+    - [the omelette recipe]{"entity": "sort.recipe", "value": "individual.omelette_recipe"}
+    - [Enjoy your French omelette!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
+    - yes [tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - no [a tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+
+- intent: answer_negation
+  examples: |
+    - not [tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - not [a tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - not [one cup]{"entity": "sort.amount", "value": "individual.cup"}
+    - not [a cup]{"entity": "sort.amount", "value": "individual.cup"}
+    - not [the potato recipe]{"entity": "sort.recipe", "value": "individual.potato_recipe"}
+    - not [the omelette recipe]{"entity": "sort.recipe", "value": "individual.omelette_recipe"}
+    - not [Enjoy your French omelette!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
 
 - intent: NEGATIVE
   examples: |
