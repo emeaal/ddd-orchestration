@@ -44,6 +44,9 @@
   <get_done action="stir_potato_and_butter"/>
   <get_done action="season_mashed_potatoes"/>
   <get_done action="serve_mashed_potatoes"/>
+  <inform>
+        <proposition predicate="serve" value="serve_the_mashed_potatoes"/>
+      </inform>
   <signal_action_completion/>
   </plan>
   </goal>
@@ -62,6 +65,25 @@
         <else>
           <inform>
             <proposition predicate="butter_amount" value="cup"/>
+          </inform>
+        </else>
+      </if>
+    </plan>
+  </goal>
+
+  <goal type="resolve" question_type="wh_question" predicate="potato_size">
+    <plan>
+      <findout type="wh_question" predicate="current_recipe"/>
+      <if>
+        <is_private_belief_or_shared_commitment predicate="current_recipe" value="potato_recipe"/>
+        <then>
+          <inform>
+            <proposition predicate="potato_size" value="inch_size"/>
+          </inform>
+        </then>
+        <else>
+          <inform>
+            <proposition predicate="potato_size" value="no_size"/>
           </inform>
         </else>
       </if>

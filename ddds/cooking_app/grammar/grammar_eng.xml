@@ -136,6 +136,29 @@
     </one-of>
   </question>
 
+  <question type="wh_question" speaker="user" predicate="potato_size">
+    <one-of>
+      <item>how should i cut them</item>
+      <item>how big</item>
+      <item>what size</item>
+      <item>how big potatoes</item>
+    </one-of>
+  </question>
+
+  <individual name="inch_size">
+    <one-of>
+      <item>an inch or so</item>
+      <item>one inch</item>
+    </one-of>
+  </individual>
+
+  <individual name="no_size">
+    <one-of>
+      <item>no size</item>
+      <item>nope</item>
+    </one-of>
+  </individual>
+
   <individual name="tablespoon">
     <one-of>
       <item>one tablespoon is fine</item>
@@ -145,8 +168,8 @@
 
   <individual name="cup">
     <one-of>
-      <item>one cup</item>
-      <item>a cup</item>
+      <item>6 tablespoons of butter</item>
+      <item>around 6 tablespoons</item>
     </one-of>
   </individual>
 
@@ -167,6 +190,14 @@
       <item>Enjoy your French omelette</item>
     </one-of>
   </individual>
+
+  <individual name="serve_the_mashed_potatoes">
+    <one-of>
+      <item>Enjoy your mashed potatoes</item>
+    </one-of>
+  </individual>
+
+
 
 
 

@@ -21,14 +21,17 @@
 
 <sort name="recipe" dynamic="false"/>
 <sort name="amount" dynamic="false"/>
+<sort name="size" dynamic="false"/>
 <sort name="serving" dynamic="false"/>
 
 
 <predicate name="current_recipe" sort="recipe"/>
 <predicate name="butter_amount" sort="amount"/>
+<predicate name="potato_size" sort="size"/>
 <predicate name="serve" sort="serving"/>
 
 <individual name="serve_the_omelette" sort="serving"/>
+<individual name="serve_the_mashed_potatoes" sort="serving"/>
 
 
 <individual name="potato_recipe" sort="recipe"/>
@@ -36,6 +39,8 @@
 
 <individual name="tablespoon" sort="amount"/>
 <individual name="cup" sort="amount"/>
+<individual name="inch_size" sort="size"/>
+<individual name="no_size" sort="size"/>
 
 <!-- <sort name="butter"/> -->
 
