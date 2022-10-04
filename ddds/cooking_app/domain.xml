@@ -71,23 +71,26 @@
     </plan>
   </goal>
 
-  <goal type="resolve" question_type="wh_question" predicate="potato_size">
+  <goal type="resolve" question_type="wh_question" predicate="milk_amount">
     <plan>
       <findout type="wh_question" predicate="current_recipe"/>
       <if>
         <is_private_belief_or_shared_commitment predicate="current_recipe" value="potato_recipe"/>
         <then>
           <inform>
-            <proposition predicate="potato_size" value="inch_size"/>
+            <proposition predicate="milk_amount" value="two_cups"/>
           </inform>
         </then>
         <else>
           <inform>
-            <proposition predicate="potato_size" value="no_size"/>
+            <proposition predicate="milk_amount" value="none"/>
           </inform>
         </else>
       </if>
     </plan>
   </goal>
+
+
+
   
 </domain>

@@ -136,28 +136,30 @@
     </one-of>
   </question>
 
-  <question type="wh_question" speaker="user" predicate="potato_size">
+  
+<question type="wh_question" speaker="user" predicate="milk_amount">
     <one-of>
-      <item>how should i cut them</item>
-      <item>how big</item>
-      <item>what size</item>
-      <item>how big potatoes</item>
+      <item>milk amount</item>
+      <item>how much milk should i take</item>
+      <item>what amount of milk</item>
+      <item>how much milk</item>
     </one-of>
   </question>
 
-  <individual name="inch_size">
+  <individual name="two_cups">
     <one-of>
-      <item>an inch or so</item>
-      <item>one inch</item>
+      <item>around two cups will do</item>
+      <item>two cups</item>
     </one-of>
   </individual>
 
-  <individual name="no_size">
+  <individual name="none">
     <one-of>
-      <item>no size</item>
-      <item>nope</item>
+      <item>none is needed for this recipe</item>
+      <item>none</item>
     </one-of>
   </individual>
+
 
   <individual name="tablespoon">
     <one-of>
@@ -193,9 +195,11 @@
 
   <individual name="serve_the_mashed_potatoes">
     <one-of>
-      <item>Amazing! You have finished preparing mashed potatoes. Enjoy your meal!</item>
+      <item>Amazing! You have finished preparing mashed potatoes. Enjou your meal.</item>
     </one-of>
   </individual>
+
+
 
 
 

@@ -102,29 +102,50 @@ nlu:
 - intent: question::butter_amount
   examples: |
     - butter amount
+    - how much butter should i take
+    - what amount of butter
     - how much butter
+
+- intent: question::milk_amount
+  examples: |
+    - milk amount
+    - how much milk should i take
+    - what amount of milk
+    - how much milk
 
 - intent: answer
   examples: |
-    - [tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
-    - [a tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
-    - [one cup]{"entity": "sort.amount", "value": "individual.cup"}
-    - [a cup]{"entity": "sort.amount", "value": "individual.cup"}
+    - [one tablespoon is fine]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - [one tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - [around 6 tablespoons of butter is fine]{"entity": "sort.amount", "value": "individual.cup"}
+    - [around 6 tablespoons]{"entity": "sort.amount", "value": "individual.cup"}
+    - [around two cups will do]{"entity": "sort.amount", "value": "individual.two_cups"}
+    - [two cups]{"entity": "sort.amount", "value": "individual.two_cups"}
+    - [none is needed for this recipe]{"entity": "sort.amount", "value": "individual.none"}
+    - [none]{"entity": "sort.amount", "value": "individual.none"}
     - [the potato recipe]{"entity": "sort.recipe", "value": "individual.potato_recipe"}
     - [the omelette recipe]{"entity": "sort.recipe", "value": "individual.omelette_recipe"}
-    - [Enjoy your French omelette!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
-    - yes [tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
-    - no [a tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - [Amazing! You have finished preparing a French omelette. Bon appétit!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
+    - [Amazing! You have finished preparing mashed potatoes. Enjou your meal.]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
+    - yes [one tablespoon is fine]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - yes [Amazing! You have finished preparing a French omelette. Bon appétit!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
+    - no [one tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - no [Amazing! You have finished preparing mashed potatoes. Enjou your meal.]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
 
 - intent: answer_negation
   examples: |
-    - not [tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
-    - not [a tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
-    - not [one cup]{"entity": "sort.amount", "value": "individual.cup"}
-    - not [a cup]{"entity": "sort.amount", "value": "individual.cup"}
+    - not [one tablespoon is fine]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - not [one tablespoon]{"entity": "sort.amount", "value": "individual.tablespoon"}
+    - not [around 6 tablespoons of butter is fine]{"entity": "sort.amount", "value": "individual.cup"}
+    - not [around 6 tablespoons]{"entity": "sort.amount", "value": "individual.cup"}
+    - not [around two cups will do]{"entity": "sort.amount", "value": "individual.two_cups"}
+    - not [two cups]{"entity": "sort.amount", "value": "individual.two_cups"}
+    - not [none is needed for this recipe]{"entity": "sort.amount", "value": "individual.none"}
+    - not [none]{"entity": "sort.amount", "value": "individual.none"}
     - not [the potato recipe]{"entity": "sort.recipe", "value": "individual.potato_recipe"}
     - not [the omelette recipe]{"entity": "sort.recipe", "value": "individual.omelette_recipe"}
-    - not [Enjoy your French omelette!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
+    - not [Amazing! You have finished preparing a French omelette. Bon appétit!]{"entity": "sort.serving", "value": "individual.serve_the_omelette"}
+    - not [Amazing! You have finished preparing mashed potatoes. Enjou your meal.]{"entity": "sort.serving", "value": "individual.serve_the_mashed_potatoes"}
 
 - intent: NEGATIVE
   examples: |
