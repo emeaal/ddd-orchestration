@@ -1,31 +1,31 @@
 [
     {
-        "semantic_expression": "some(semantic_expression_of_a_move)",
+        "semantic_expression": "request(fold_omelette)",
         "visual_information": [
             {
                 "attribute": "name",
                 "type": "text/plain",
-                "value": "Some text to show if the image cannot be shown"
+                "value": "When the eggs are set but look slightly wet, turn off the heat and fold the omelette."
             },
             {
                 "attribute": "image",
                 "type": "image/jpeg",
-                "value": "https://some-image-url"
+                "value": "https://media.eggs.ca/assets/RecipePhotos/_resampled/FillWyIxMjgwIiwiNzIwIl0/Basic-Omelette-CMS.jpg"
             }
         ]
     },
     {
-        "semantic_expression": "another(semantic_expression_of_a_move)",
+        "semantic_expression": "request(stir_potato_and_butter)",
         "visual_information": [
             {
                 "attribute": "name",
                 "type": "text/plain",
-                "value": "Another text to show if the image cannot be shown"
+                "value": "Pour the melted butter mixture over the potatoes and stir everything together"
             },
             {
                 "attribute": "image",
                 "type": "image/jpeg",
-                "value": "https://another-image-url"
+                "value": "https://preppykitchen.com/wp-content/uploads/2020/09/Mashed-Potatoes-process-3.jpg"
             }
         ]
     }
