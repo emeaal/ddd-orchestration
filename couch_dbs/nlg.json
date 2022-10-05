@@ -44,7 +44,7 @@
         "utterance": "Pour the melted butter mixture over the potatoes and stir everything together."
     },
     {
-        "match": "request(stir_everything_potato, done))",
+        "match": "request(stir_everything_potato)",
         "utterance": "Pour half of the melted butter mixture over the potatoes, and fold it in with a wooden spoon or spatula until potatoes have soaked up the liquid"
     },
     {
