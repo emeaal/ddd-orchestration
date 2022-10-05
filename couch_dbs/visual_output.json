@@ -15,6 +15,21 @@
         ]
     },
     {
+        "semantic_expression": "request(cut_potatoes)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "Cut your potatoes into evenly-sized chunks."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://www.gimmesomeoven.com/wp-content/uploads/2018/11/The-Best-Mashed-Potatoes-Recipe-7.jpg"
+            }
+        ]
+    },
+    {
         "semantic_expression": "request(stir_potato_and_butter)",
         "visual_information": [
             {
