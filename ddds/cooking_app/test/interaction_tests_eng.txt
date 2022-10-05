@@ -1,6 +1,6 @@
 
 --- make french omelette
-S> What would you like to do?
+S> Do you want to a French omelette or mashed potatoes?
 U> I want to make a french omelette
 S> Crack three eggs on a bowl and whisk with a pinch of salt.
 U> done
@@ -15,9 +15,9 @@ U> done
 S> Amazing! You have finished preparing a French omelette. Bon appétit!.
 
 --- make mashed potatoes
-S> What would you like to do?
+S> Do you want to a French omelette or mashed potatoes?
 U> I want to make mashed potatoes
-S> Cut your potatoes into evenly-sized chunks, about an inch or so thick.
+S> Cut your potatoes into evenly-sized chunks.
 U> done
 S> Put cold water in the pan and turn on the high heat. Boil the potatoes for 10-12 minutes. Drain out all the water.
 U> done
