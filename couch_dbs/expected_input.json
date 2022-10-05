@@ -1,18 +1,36 @@
 [
     {
-        "current_plan_item": "findout(?X.example_predicate(X), set([example_predicate(individual_1), example_predicate(individual_2), example_predicate(individual_3)]))",
-        "semantic_expression": "answer(example_predicate(individual_1))",
+        "current_plan_item": "findout(?set([goal(perform(french_omelette)), goal(perform(mashed_potatoes))]))",
+        "semantic_expression": "request(french_omelette)",
         "alternative": {
             "visual_information": [
                 {
                     "attribute": "name",
                     "type": "text/plain",
-                    "value": "Some text to show on the button"
+                    "value": "French Omelette"
                 },
                 {
                     "attribute": "image",
                     "type": "image/jpeg",
-                    "value": "https://some-image-url"
+                    "value": "https://www.seriouseats.com/thmb/u39HPrhVg8prh5uPMV1yuyxNOWg=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__04__20160323-french-omelet-vicky-wasik--29-4443fd8d1f5b4e359f31e384d901cefb.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "current_plan_item": "findout(?set([goal(perform(french_omelette)), goal(perform(mashed_potatoes))]))",
+        "semantic_expression": "request(mashed_potatoes)",
+        "alternative": {
+            "visual_information": [
+                {
+                    "attribute": "name",
+                    "type": "text/plain",
+                    "value": "Mashed Potatoes"
+                },
+                {
+                    "attribute": "image",
+                    "type": "image/jpeg",
+                    "value": "https://www.simplyrecipes.com/thmb/wOFN7YgfHcVAS7OCRSjCLZrp0L8=/3000x3000/smart/filters:no_upscale()/Simply-Recipes-Perfect-Mashed-Potatoes-LEAD-04-150be63f396d4055aaee2584ac31ef14.jpg"
                 }
             ]
         }
