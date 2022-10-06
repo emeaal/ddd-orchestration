@@ -4,10 +4,6 @@
         "utterance": "Crack three eggs on a bowl and whisk with a pinch of salt."
     },
     {
-        "match": "report(action_status(whisked_eggs, done))",
-        "utterance": "Okay."
-    },
-    {
         "match": "request(heat_butter)",
         "utterance": "Heat butter or oil on a pan on high heat."
     },
